@@ -1,0 +1,43 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rialo Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rialo Memory Game</h1>
+        
+        <div class="controls">
+            <div class="game-settings">
+                <h3>Memory Card Game</h3>
+                <p>Find all matching pairs of cards!</p>
+                <button id="startGame">Start Game</button>
+            </div>
+            
+            <div class="game-info">
+                <div id="score">Score: 0</div>
+                <div id="moves">Moves: 0</div>
+                <div id="timer">Time: 00:00</div>
+            </div>
+        </div>
+
+        <div class="game-board" id="gameBoard"></div>
+
+        <div class="message" id="message"></div>
+        
+        <div class="game-stats" id="gameStats" style="display: none;">
+            <h3>Game Statistics</h3>
+            <div id="finalScore">Final Score: 0</div>
+            <div id="finalTime">Time: 00:00</div>
+            <div id="finalMoves">Moves: 0</div>
+            <div id="bonusPoints">Bonus: 0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
